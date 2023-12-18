@@ -1,6 +1,6 @@
-## Building a server actions App with NextJS, TailwindCSS, MongoDB and prisma
+## Building a events platform with server actions
 
-Organize and celebrate your events with our platform! React, Mongodb and Typescript server action, stripe for payment and clerk for authentication
+Build an event organization web app like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and payments using Next JS 14, Tailwind CSS, Shadcn, React Hook Form, Zod, Uploadthing, React-Datepicker, Mongoose, Clerk, and Stripe.
 
 ## About this Repository
 
@@ -29,20 +29,32 @@ Clerk
 Stripe
 
 🔐 Setup .env file
-DATABASE_URL
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+
 CLERK_SECRET_KEY
+
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
 MONGODB_URI
+
 WEBHOOK_SECRET
+
 UPLOADTHING_SECRET
+
 UPLOADTHING_APP_ID
+
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+
 STRIPE_SECRET_KEY
+
 NEXT_PUBLIC_SERVER_URL
+
 STRIPE_WEBHOOK_SECRET
 
 ## :running: Run Locally
