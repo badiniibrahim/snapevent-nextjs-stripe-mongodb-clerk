@@ -62,7 +62,7 @@ STRIPE_WEBHOOK_SECRET
 Clone the project
 
 ```bash
-  git clone https://github.com/badiniibrahim/nextjs-14-todo-app-server-action-with-prisma.git
+  git https://github.com/badiniibrahim/snapevent-nextjs-stripe-mongodb-clerk.git
 ```
 
 Install dependencies
